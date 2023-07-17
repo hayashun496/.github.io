@@ -1,0 +1,162 @@
+
+.title {
+    text-align:center;
+    background-color:#ffa500;
+    line-height:100px;
+    color:white;
+    font-family:cursive;
+    font-size:30px;
+}
+
+.content {
+    width:95%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.table-title {
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+.lines{
+    width:100%;
+    border-top:3px solid #ff69b4;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.line {
+    border-bottom:1px solid black;
+    padding:0px;
+    margin:0px;
+    min-height:50px;
+    text-align:center;
+}
+
+
+
+a {
+    display:block;
+    float:left;
+    line-height:50px;
+}
+
+
+
+.id {
+    width:80px;
+    text-align:center;
+    padding:0px 30px 0px 0px;
+}
+
+.name {
+    width:200px;
+    text-align:left;
+    margin:0px 0px 0px 5px;
+}
+
+.name-title {
+    margin:0px 0px 0px 115px;
+}
+
+.editname {
+    width:145px;
+    float:left;
+    height:30px;
+    margin:7px 45px 0px 0px;
+    text-align:left;
+}
+
+.commentarea {
+    width:320px;
+    margin-right:80px;
+    float:left;
+    min-height:50px;
+}
+
+.comment {
+    margin:10px 0px 10px 0px;
+    text-align:left;
+    line-height:30px;
+}
+
+.editcomment {
+    width:320px;
+    float:left;
+    min-height:30px;
+    margin:7px 1.5px 0px 0px;
+    text-align:left;
+}
+
+.image {
+    float:left;
+    width:200px;
+    text-align:center;
+    margin-top:10px;
+}
+
+.image img {
+    width:100%;
+}
+
+.button {
+    float:left;
+    height:30px;
+    width:60px;
+    margin:10px 10px 10px 10px;
+    background-color:#DDDDDD;
+    border:none;
+    opacity:0.7;
+    border-radius:10px;
+}
+
+.button:hover {
+    opacity:1;
+}
+
+.pass{
+    float:left;
+    width:200px;
+    height:30px;
+    margin:7px 10px 0px 50px;
+    text-align:center;
+}
+
+.newpass{
+    margin:7px 10px 0px 50px;
+}
+
+.newimage{
+    float:left;
+    width:200px;
+    margin:10px 0px 0px 80px;
+}
+
+
+
+
+textarea {
+    font-size:15px;
+    line-height:30px;
+    font-family:sans-serif;
+}
+
+textarea:focus {
+    font-size:15px;
+    line-height:30px;
+    font-family:sans-serif;
+}
+
+::placeholder {
+    font-size:15px;
+    line-height:30px;
+    font-family:sans-serif;
+}
+
+
+.clear {
+    clear:both;
+}
